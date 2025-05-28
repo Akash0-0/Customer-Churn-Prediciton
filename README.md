@@ -38,10 +38,6 @@ This project builds a Decision Tree classifier to predict customer churn for a b
 ```bash
 python train_model.py
 
-AUTHOR
-Aakash pal
-palaakaah148@gmail.com
-
 
 ## CODE
 
@@ -93,3 +89,7 @@ print("Classification Report:\n", classification_report(y_val, y_pred))
 joblib.dump(model, 'Customer-Churn-Predictor.pkl')
 print("Model saved as Customer-Churn-Predictor.pkl")
 
+
+AUTHOR
+Aakash pal
+palaakaah148@gmail.com
